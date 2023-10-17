@@ -1390,3 +1390,114 @@ transform: translateY(50%);
  }
 
  /* --=================== End Footer Section CSS Style Here===================-- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ /* -- =================== Start All Extra Section Here =================== -- */
+
+ /* --======= Start Search PopUp Section Here ======= -- */
+ #home_page_search_popup {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    transition: 0.5s;
+}
+
+#home_page_search_popup.show {
+    display: block;
+}
+
+#home_page_search_popup .search_box {
+    padding: 0 20px;
+    background-color: none;
+    border: 1px solid var(--primary_color_orange_light);
+    border-radius: 50px;
+}
+
+#home_page_search_popup .search_box input {
+    font-size: 20px;
+    line-height: 28px;
+    width: 100%;
+    color: var(--white_color);
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#home_page_search_popup .search_box input:focus {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#home_page_search_popup .search_box input::placeholder {
+    color: var(--white_color);
+}
+
+#home_page_search_popup .search_box button {
+    border: none;
+    background: none;
+}
+
+#home_page_search_popup .search_box button i {
+    color: var(--white_color);
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    height: 100%;
+    padding: 10px;
+}
+
+#home_page_search_popup .btn_close {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    background: none;
+    border: none;
+}
+
+#home_page_search_popup .btn_close i {
+    color: var(--primary_color_orange_light);
+    text-align: center;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid var(--primary_color_orange_light);
+    border-radius: 50%;
+    background: none;
+    transform: rotate(0deg);
+    transition: 0.4s ease;
+}
+
+#home_page_search_popup .btn_close i:hover {
+    background-color: var(--white_color);
+    border-color: var(--white_color);
+    transform: rotate(120deg);
+}
+
+/* --======= End Search PopUp Section Here ======= -- */
+/* -- =================== Start All Extra Section Here =================== -- */

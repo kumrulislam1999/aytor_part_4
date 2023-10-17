@@ -1,4 +1,15 @@
 $(function () {
+
+
+
+    $('.header_search_box').on('click',function(){
+$('#home_page_search_popup').addClass('show')
+
+    })
+$('.btn_close').on('click',function(){
+    $('#home_page_search_popup').removeClass('show')
+    
+})
     $(".bannar_sliding_box").slick({
         accessibility: true,
         autoplay: true,
